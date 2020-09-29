@@ -3,7 +3,7 @@
 
 **DEMO LINK :** https://eventregistration-stackhack.web.app/
 
-![](ScreenShots/AdminDashBoardChart)
+![ADMIN DASHBOARD SCREENSHOT](ScreenShots/AdminDashBoardChart.jpg)
 
 What's the prototype/overview of our website?
 1) Initially we have the registration form for the event, where the event is fixed as of now in

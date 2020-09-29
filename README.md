@@ -20,7 +20,7 @@ b. Group -
 previous booking of any type already made.
 ● In this case skipping that member, the rest of the other people will be
 considered for booking.
-![GroupRegistrationFormPreviewOnePreviouslyRegistered SCREENSHOT](ScreenShots/GroupRegistrationFormPreviewOnePreviouslyRegistered.jpg)
+![GroupRegistrationFormOnePreviouslyRegistered SCREENSHOT](ScreenShots/GroupRegistrationFormOnePreviouslyRegistered.jpg)
 ![GroupRegistartionOnePreviouslyRegistered SCREENSHOT](ScreenShots/GroupRegistartionOnePreviouslyRegistered.jpg)
 c. Corporate-
 ● It’s much like a group booking.
@@ -41,29 +41,41 @@ booking process.
 3) An account will be automatically created whenever a new user makes any booking for
 any event.
 4) Account related credentials will be mailed to the person who does the bookings.
+![MailForUserAccountCreation SCREENSHOT](ScreenShots/MailForUserAccountCreation.jpg)
 5) User has to upload his/her IdProof (with a restriction that the file should be a jpeg or png
 and file size less than 500kb).
-5) We preview the details along with the Id proof that the user uploaded.
+We preview the details along with the Id proof that the user uploaded.
+![SelfFormPreview SCREENSHOT](ScreenShots/SelfFormPreview.jpg)
 6) Upon confirmation the booking is made and tickets along with a QR (that could be used at
 the event location to verify the user) will be mailed to the person.
+![MailForBookingConfirmation SCREENSHOT](ScreenShots/MailForBookingConfirmation.jpg)
+![QRCodeGoogleLenseScan SCREENSHOT](ScreenShots/QRCodeGoogleLenseScan.jpg)
 7) Also a text message will be sent to the user’s mobile number showing the minimal
 necessary details of the event.
+![SMSForBookingConfirmation SCREENSHOT](ScreenShots/SMSForBookingConfirmation.jpg)
 8) We have implemented the login forms for users and admin.
+![AdminLoginIncorrectAdminId SCREENSHOT](ScreenShots/AdminLoginIncorrectAdminId.jpg)
+![LoginWithIncorrectPassword SCREENSHOT](ScreenShots/LoginWithIncorrectPassword.jpg)
 9) Admin can login and check their dashboard for detailed information of every booking or
 every event.
 10) A chart is shown to the admin for every event.
+![AdminDashBoardChart SCREENSHOT](ScreenShots/AdminDashBoardChart.jpg)
 11) That chart represents the total count of the registrations made for that corresponding
 event based on the types (self, group, corporate, others).
 12) Admin can click on each bar to populate tables for each type.
 13) Table shows the unique registration Id, date and name of the person who made the
 booking.
+![AdminDashBoardTableOfBookingInfo SCREENSHOT](ScreenShots/AdminDashBoardTableOfBookingInfo.jpg)
 14) Upon clicking on any row a modal will open up showing the details related to that
 registration Id.
+![AdminDashboardViewBookingInDetail SCREENSHOT](ScreenShots/AdminDashboardViewBookingInDetail.jpg)
 15) When user tries to log in:
 a. If a user account doesn’t exist with the entered mobile number he/she will be
 notified to create an account. (user signup form will be created in future)
+![LoginWithIncorrectUserNumber SCREENSHOT](ScreenShots/LoginWithIncorrectUserNumber.jpg)
 b. If a user enters incorrect password the password field is highlighted with error
 and incorrect password message will be displayed.
+![LoginWithIncorrectPassword SCREENSHOT](ScreenShots/LoginWithIncorrectPassword.jpg)
 c. If a user enters correct credentials he will be redirected to their dashboard.
 16) Almost all the edge cases for event registration form are covered:
 a. Validations at every necessary field.
@@ -77,7 +89,7 @@ e. In any way if users try to manipulate the booking form it is well handled in 
 frontend and backend to their levels.
 f. Incorrect login attempts are notified.
 g. Details of login cleared out once the user logout.
-What’s our vision?
+**What’s the vision?**
 1. The type of events our site provides are awareness, social cause, hackathons, seminars,
 educational and training camps.
 2. This Site consists of two portals Admin and User.

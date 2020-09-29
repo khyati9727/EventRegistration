@@ -6,11 +6,12 @@
 1) Initially we have the registration form for the event.
 ![EmptyForm SCREENSHOT](ScreenShots/EmptyForm.jpg)
 ![RegistrationFormWithErrorMessages SCREENSHOT](ScreenShots/RegistrationFormWithErrorMessages.jpg)
-![SelfFormFill SCREENSHOT](ScreenShots/SelfFormFill.jpg)
+
 2) For event registration we gave user the option to choose what type of booking he/she
 want’s to make:
 a. Self -
 ● If the person is booking for himself/herself.
+![SelfFormFill SCREENSHOT](ScreenShots/SelfFormFill.jpg)
 b. Group -
 ● If the person wants to book tickets for a group.
 ● User has the choice to either include him/her or not.
@@ -19,6 +20,8 @@ b. Group -
 previous booking of any type already made.
 ● In this case skipping that member, the rest of the other people will be
 considered for booking.
+![GroupRegistrationFormPreviewOnePreviouslyRegistered SCREENSHOT](ScreenShots/GroupRegistrationFormPreviewOnePreviouslyRegistered.jpg)
+![GroupRegistartionOnePreviouslyRegistered SCREENSHOT](ScreenShots/GroupRegistartionOnePreviouslyRegistered.jpg)
 c. Corporate-
 ● It’s much like a group booking.
 ● For verification we may add the functionality to verify the organization
